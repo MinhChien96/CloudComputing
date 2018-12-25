@@ -78,7 +78,7 @@ class AddModal extends Component {
                       const newFood = {
                           key: '6',
                           name: this.state.newFoodName,
-                          imageURL: 'http://imgs.vietnamnet.vn/Images/2017/06/16/11/20170616110608-hoa-qua.jpg',
+                          image_url: 'http://imgs.vietnamnet.vn/Images/2017/06/16/11/20170616110608-hoa-qua.jpg',
                           description: this.state.newDescription
                       }
                       listData.push(newFood);

@@ -54,7 +54,7 @@ class DetailComponent extends Component {
               width: 300,
               height: 300,
             }}
-            source={{ uri: this.state.item.imageURL }}
+            source={{ uri: this.state.item.image_url }}
           />
         </View>
         <View
@@ -163,7 +163,7 @@ class DetailComponent extends Component {
                   width: 100,
                   height: 100,
                 }}
-                source={{ uri: this.state.item.imageURL }}
+                source={{ uri: this.state.item.image_url }}
               />
               <View style={{ marginRight: 100, marginTop: 10 }}>
                 <Text

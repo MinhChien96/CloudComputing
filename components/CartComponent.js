@@ -61,7 +61,7 @@ class CartItem extends Component {
             width: 120,
             height: 120,
           }}
-          source={{ uri: item.product.imageURL }}
+          source={{ uri: item.product.image_url }}
         />
         <View style={{ marginTop: 10 }}>
           <Text

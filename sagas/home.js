@@ -11,8 +11,9 @@ import products from '../data/index';
 
 export function* fetchProduct(action) {
   try {
-    // const result = yield call(services.fetchProduct);
-    yield put(setProduct(products));
+    const result = yield call(services.fetchProduct);
+    console.log(result.data.data);
+    yield put(setProduct(result.data.data));
   } catch (err) {
     console.log(err);
   }

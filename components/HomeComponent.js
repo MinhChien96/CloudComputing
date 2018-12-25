@@ -50,7 +50,7 @@ class FlatListItem extends Component {
               height: 130,
               margin: 5,
             }}
-            source={{ uri: this.props.item.imageURL }}
+            source={{ uri: this.props.item.image_url }}
           />
           <View
             style={{
@@ -211,6 +211,7 @@ class HomeComponent extends Component {
               onRefresh={this.refresh}
             />
           }
+          keyExtractor={(item, index) => index.toString()}
           renderItem={({ item, index }) => {
             return (
               <FlatListItem
