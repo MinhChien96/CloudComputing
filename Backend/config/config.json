@@ -1,0 +1,25 @@
+{
+    "production": {
+      "username": "sql12271416",
+      "password": "TF3Rlx9fvU",
+      "database": "sql12271416",
+      "host": "sql12.freemysqlhosting.net",
+      "port": "3306",
+      "dialect": "mysql",
+      "logging": true
+    },
+    "test": {
+      "dialect": "sqlite",
+      "storage": ":memory:",
+      "logging": false
+    },
+    "development": {
+      "username": "root",
+      "password": "chien8496",
+      "database": "web_nc_2",
+      "host": "localhost",
+      "port": "3306",
+      "dialect": "mysql",
+      "logging": true
+    }
+  }
